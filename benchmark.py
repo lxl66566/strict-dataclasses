@@ -6,7 +6,7 @@ from typing import Dict, List, Optional
 from pydantic import BaseModel
 from pydantic.dataclasses import dataclass as pydantic_dataclass
 
-from strict_dataclass import strict_dataclass
+from strict_dataclasses import strict_dataclass
 
 
 # 定义三种不同的数据类

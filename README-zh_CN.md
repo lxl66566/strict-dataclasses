@@ -29,7 +29,7 @@ pip install strict-dataclass
 ### 基本使用
 
 ```python
-from strict_dataclass import strict_dataclass
+from strict_dataclasses import strict_dataclass
 
 @strict_dataclass
 class User:
@@ -48,7 +48,7 @@ user = User(name=123, age="25", is_active=1)  # TypeError: Field 'name' must be 
 
 ```python
 from typing import Optional
-from strict_dataclass import strict_dataclass
+from strict_dataclasses import strict_dataclass
 
 @strict_dataclass
 class Student:

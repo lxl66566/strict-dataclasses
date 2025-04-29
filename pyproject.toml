@@ -1,5 +1,5 @@
 [project]
-name = "strict-dataclass"
+name = "strict-dataclasses"
 version = "0.1.0"
 description = "make dataclasses decorator type strict"
 readme = "README.md"
@@ -19,9 +19,9 @@ classifiers = [
 dev = ["pydantic>=2.11.3"]
 
 [project.urls]
-Homepage = "https://github.com/lxl66566/strict-dataclass"
-Repository = "https://github.com/lxl66566/strict-dataclass.git"
-Documentation = "https://github.com/lxl66566/strict-dataclass"
+Homepage = "https://github.com/lxl66566/strict-dataclasses"
+Repository = "https://github.com/lxl66566/strict-dataclasses.git"
+Documentation = "https://github.com/lxl66566/strict-dataclasses"
 
 [build-system]
 requires = ["hatchling"]
@@ -31,4 +31,4 @@ build-backend = "hatchling.build"
 packages = ["."]
 
 [tool.hatch.build]
-include = ["strict_dataclass.py"]
+include = ["strict_dataclasses.py"]

@@ -1,7 +1,7 @@
 import unittest
 from typing import Dict, List, Optional, Tuple, Union
 
-from strict_dataclass import strict_dataclass
+from strict_dataclasses import strict_dataclass
 
 
 @strict_dataclass
